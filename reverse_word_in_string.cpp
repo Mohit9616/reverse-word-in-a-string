@@ -9,6 +9,7 @@ int main(){
 	while(i<n){
 		while(i<0 && s[i]==' ')
 			i++;
+		if(i>=n)break;
 		j=i;
 		while(j<n && s[j]!=' ')
 			j++;
